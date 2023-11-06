@@ -1,0 +1,87 @@
+
+body{
+    background-image: url(./imges/test.png);
+}
+/*hero section*/
+
+
+.writing{
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    color: #3D0C11 !important;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.res{
+    display: grid;
+    grid-template-columns: 1.2fr 1.8fr;
+    grid-template-rows: 200px 300px 100px;
+
+}
+.item3{
+    grid-column: span 2;
+    
+}
+.item2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.item4{
+    grid-column: span 2;
+
+}
+.item1{
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+/*resume section*/
+
+.showcase{
+    display: grid;
+    margin-top: 20px;
+    padding-top: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+}
+.cards{
+    grid-column: span 3;
+}
+.expl{
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+}
+.c1{
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: center;
+}
+.c2{
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+}
+.c3{
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: center;
+}
+/*about me section*/
+.abt{
+    margin-top: 150px;}
+.par{
+    margin-top: 50px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    margin-top: 150px;
+}
